@@ -24,5 +24,3 @@ class Solution:
 
 #mistakes were not remembering tail = dummy, tail = tail.next and tail.next = list1
 # also while loop contained list1.val 
-
-

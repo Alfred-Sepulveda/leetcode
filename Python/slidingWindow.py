@@ -1,4 +1,7 @@
 
+from tkinter import W
+
+
 def maxSum(arr,WindowSize):
     arraySize = len(arr)
     if(arraySize<=WindowSize):

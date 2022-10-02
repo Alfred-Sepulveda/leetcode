@@ -4,7 +4,8 @@ class Solution:
             for j in range(i+1, len(nums)):
                 sums = nums[i] + nums[j]
                 if sums == target:
-                    return [i,j]
-
-                    
+                    return [i,j]       
 #edit commits
+s = Solution()
+answer = s.twoSum([1,2,3,4,5],9)
+print(answer)

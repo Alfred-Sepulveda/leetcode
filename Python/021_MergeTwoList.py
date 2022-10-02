@@ -5,7 +5,7 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def mergeTwoLists(self, list1: ListNode, list2:ListNode) -> ListNode:
+    def mergeTwoLists(self, list1:ListNode, list2:ListNode) -> ListNode:
         dummy = ListNode()
         tail = dummy
         while list1.val and list2.val:
@@ -24,3 +24,6 @@ class Solution:
 
 #mistakes were not remembering tail = dummy, tail = tail.next and tail.next = list1
 # also while loop contained list1.val 
+s = Solution()
+answer = s.mergeTwoLists([1,2,3,4],[5,6,7,8])
+print(answer)

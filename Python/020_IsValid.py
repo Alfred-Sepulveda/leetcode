@@ -19,4 +19,6 @@ class Solution:
 #mistakes I made were if i in closedToOpen loop. it has to be i not s. Also stack and 
 #stack[-1] == closedToOpen[i] in order to stack.pop() or remove the bracket from the
 #stack
-
+s = Solution()
+answer = s.isValid('[({{}})]')
+print(answer)

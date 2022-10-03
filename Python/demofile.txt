@@ -1,0 +1,4 @@
+Hello! welcome to demofile.txt
+This file is for testing purposes. (open_file.py)
+Ok bye!
+

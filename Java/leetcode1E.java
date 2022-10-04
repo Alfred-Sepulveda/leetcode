@@ -11,3 +11,7 @@ class Solution {
     }
 }
 
+
+class Solution {
+    
+}

@@ -1,5 +1,6 @@
 from fileinput import close
 from re import S
+from urllib.request import OpenerDirector
 
 
 class Solution:
@@ -22,3 +23,4 @@ class Solution:
 s = Solution()
 answer = s.isValid('[({{}})]')
 print(answer)
+

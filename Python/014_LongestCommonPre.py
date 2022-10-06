@@ -19,5 +19,4 @@ class Solution:
 s = Solution()
 answer = s.longestCommonPrefix(['flower','flow','flight'])
 print(answer)
-
-
+#not mastered yet

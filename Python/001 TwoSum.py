@@ -10,5 +10,3 @@ s = Solution()
 answer = s.twoSum([1,2,3,4,5],9)
 print(answer)
 
-
-

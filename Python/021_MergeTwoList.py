@@ -27,3 +27,6 @@ class Solution:
 s = Solution()
 answer = s.mergeTwoLists([1,2,3,4],[5,6,7,8])
 print(answer)
+
+#got confused with <>
+

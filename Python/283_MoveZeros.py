@@ -15,6 +15,6 @@ class Solution:
 s = Solution()
 s.moveZeroes([0,2,0,1,4])
 
+#confused with nums in loop
 
-            
 
